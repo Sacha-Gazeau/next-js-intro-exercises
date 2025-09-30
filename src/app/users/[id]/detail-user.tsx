@@ -11,6 +11,7 @@ export default async function UserDetail({
     {
       cache: "no-store",
     }
+    
   );
   const user = await response.json();
   return (
