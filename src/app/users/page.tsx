@@ -26,6 +26,7 @@ export default async function Users({
 
   const users: User[] = await response.json();
 
+
   return (
     <table className="border-spacing-x-5 border-spacing-y-2.5 border-separate text-left border-2">
       <thead>
@@ -47,6 +48,7 @@ export default async function Users({
             </tr>
           );
         })}
+        
       </tbody>
     </table>
   );
